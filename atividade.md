@@ -23,6 +23,33 @@ abertura e a inovação dos desenvolvedores. ~~Microsoft e código aberto?~~
 3. **Microsoft**
 4. **Social Code Hosting**
 
+### sub titulo 2
+#### sub titulo 3
+##### sub titulo 4
+
+##### Logo a seguir, temos um simples código em C
+
+#include <stdio.h>
+#include <time.h>
+
+int fat(int n){
+	if(n==1)
+		return 1;
+	else{
+		return n*fat(n-1);
+	}
+}
+
+int main(){
+	int fatorial, i, n;
+	srand( (unsigned)time(NULL) );
+	n = rand() % 5 + 1;
+	fatorial = fat(n);
+	for(i = 0; i < fatorial; i++)
+		printf("%d: Ola Github\n",(i+1));
+	
+}
+
 
 
 
