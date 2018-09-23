@@ -29,6 +29,7 @@ abertura e a inovação dos desenvolvedores. ~~Microsoft e código aberto?~~
 
 ##### Logo a seguir, temos um simples código em C
 
+```C
 #include <stdio.h>
 #include <time.h>
 
@@ -49,7 +50,7 @@ int main(){
 		printf("%d: Ola Github\n",(i+1));
 	
 }
-
+```
 
 
 
